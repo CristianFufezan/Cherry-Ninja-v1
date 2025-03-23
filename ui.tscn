@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bnwi1dv7u28br"]
+
+[node name="UI" type="CanvasLayer"]
+
+[node name="Panel" type="Panel" parent="."]
+texture_filter = 1
+offset_right = 128.0
+offset_bottom = 77.0
+
+[node name="Label" type="Label" parent="."]
+unique_name_in_owner = true
+texture_filter = 1
+offset_right = 128.0
+offset_bottom = 77.0
+text = "Cherries: 0"
+horizontal_alignment = 1
+vertical_alignment = 1
